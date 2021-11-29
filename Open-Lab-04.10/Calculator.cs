@@ -6,7 +6,8 @@ namespace Open_Lab_04._10
     {
         public float Average(int[] nums)
         {
-            throw new NotImplementedException();
+            int[] a =  Queryable.Average(nums.AsQueryable());
+            return a;
         }
     }
 }
